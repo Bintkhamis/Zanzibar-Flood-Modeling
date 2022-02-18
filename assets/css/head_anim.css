@@ -1,0 +1,101 @@
+/* Osf_logo */
+#div_anim1 {
+  width: auto;
+  height: 70px;
+  background-color:;
+  background-image: url("Images/o.png");
+  font-weight: bold;
+  position: relative;
+  -webkit-animation: mymove 7s infinite;
+  animation: mymove 7s infinite;
+}
+
+
+#div_anim1 {-webkit-animation-timing-function: linear;}
+
+
+#div_anim1 {animation-timing-function: linear;}
+
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 40%;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 40%;}
+}
+/* End/> Osf_logo */
+
+
+
+/* branding */
+#div_branding {
+  background-color:;
+  position: relative;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  
+  /* Standard syntax */
+  animation-name: example;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@-webkit-keyframes example {
+  0%   {background-color:; left:0px; top:0px;}
+  25%  {background-color:; left:20px; top:0px;}
+  /* 50%  {background-color:blue; left:200px; top:200px;} */
+  /* 75%  {background-color:green; left:0px; top:200px;} */
+  /* 100% {background-color:red; left:0px; top:0px;} */
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:; left:0px; top:0px;}
+  25%  {background-color:; left:20px; top:0px;}
+  /* 50%  {background-color:blue; left:200px; top:200px;} */
+  /* 75%  {background-color:green; left:0px; top:200px;} */
+  /* 100% {background-color:red; left:0px; top:0px;} */
+}
+/* End/> branding */
+
+
+
+/* <Start> Bar Animation  */
+
+#flood_zone {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; 
+  transition: width 2s;
+}
+
+
+#div1 {-webkit-transition-timing-function: linear;}
+#div2 {-webkit-transition-timing-function: ease;}
+#div3 {-webkit-transition-timing-function: ease-in;}
+#div4 {-webkit-transition-timing-function: ease-out;}
+#div5 {-webkit-transition-timing-function: ease-in-out;}
+
+
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+#flood_zone:hover {
+  width: 300px;
+}
+/* <End/> Bar Animation  */

@@ -1,0 +1,204 @@
+/* Osf_logo */
+#div_anim1 {
+  width: auto;
+  height: 70px;
+  background-color:;
+  background-image: url("Images/o.png");
+  font-weight: bold;
+  position: relative;
+  -webkit-animation: mymove 7s infinite;
+  animation: mymove 7s infinite;
+}
+
+
+#div_anim1 {-webkit-animation-timing-function: linear;}
+
+
+#div_anim1 {animation-timing-function: linear;}
+
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 40%;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 40%;}
+}
+/* End/> Osf_logo */
+
+
+
+/* branding */
+#div_branding {
+  background-color:;
+  position: relative;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  
+  /* Standard syntax */
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@-webkit-keyframes example {
+  0%   {background-color:; left:0px; top:0px;}
+  25%  {background-color:; left:20px; top:0px;}
+  /* 50%  {background-color:blue; left:200px; top:200px;} */
+  /* 75%  {background-color:green; left:0px; top:200px;} */
+  /* 100% {background-color:red; left:0px; top:0px;} */
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:; left:0px; top:0px;}
+  25%  {background-color:; left:20px; top:0px;}
+  /* 50%  {background-color:blue; left:200px; top:200px;} */
+  /* 75%  {background-color:green; left:0px; top:200px;} */
+  /* 100% {background-color:red; left:0px; top:0px;} */
+}
+/* End/> branding */
+
+/* Head show * start*/
+
+
+
+#f {
+	  width: 400px;	 
+	  font-weight: bold;
+	  position: relative;
+	  -webkit-animation: mymove 11s infinite; /* Safari 4.0 - 8.0 */
+	  animation: mymove 11s infinite;
+	}
+	
+	#u {
+	  width: 400px;
+	  font-weight: bold;
+	  position: relative;
+	  -webkit-animation: mymove 11s infinite; /* Safari 4.0 - 8.0 */
+	  animation: mymove 11s infinite;
+	}
+
+	/* Safari 4.0 - 8.0 */
+	#f {-webkit-animation-timing-function: linear;}
+	#u {-webkit-animation-timing-function: ease;}
+
+	/* Standard syntax */
+	#f {animation-timing-function: linear;}
+	#u {animation-timing-function: ease;}
+
+
+	/* Safari 4.0 - 8.0 */
+	@-webkit-keyframes mymove {
+	  from {left: 0px;}
+	  to {left: 70%;}
+	}
+
+	/* Standard syntax */
+	@keyframes mymove {
+	  from {left: 0px;}
+	  to {left: 70%;}
+	}
+	/* Head show * end/
+	
+	
+/* start unguja_kisiwa_logo */
+#div_anim2 {
+  width: 100px;
+  height: 100px;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#div_anim2:hover {
+  width: 300px;
+  height: 300px;
+  background:blue;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+  
+/* end unguja_kisiwa_logo */  
+ 
+ 
+/* menu start*/  
+
+.FA {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+#D {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+#FZ {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+#PH {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+#FS {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+}
+
+/* For Safari 3.1 to 6.0 */
+#FA {-webkit-transition-timing-function: linear;}
+#D {-webkit-transition-timing-function: ease;}
+#FZ {-webkit-transition-timing-function: ease-in;}
+#PH {-webkit-transition-timing-function: ease-out;}
+#FS {-webkit-transition-timing-function: ease-in-out;}
+
+/* Standard syntax */
+#FA {transition-timing-function: linear;}
+#D {transition-timing-function: ease;}
+#FZ {transition-timing-function: ease-in;}
+#PH {transition-timing-function: ease-out;}
+#FS {transition-timing-function: ease-in-out;}
+
+FA:hover {
+  width: 300px;
+}
+D:hover {
+  width: 300px;
+}
+FZ:hover {
+  width: 300px;
+}
+PH:hover {
+  width: 300px;
+}
+FS:hover {
+  width: 300px;
+}
+
+/* menu end*/ 
+
+  
+ 

@@ -1,0 +1,26 @@
+
+
+
+/*---------------------
+  Logo
+-----------------------*/
+.founder_logo {
+  padding: 35px 0px;
+}
+
+.logo__carousel.owl-carousel .owl-item img {
+  display: inline-block;
+  width: 150px;
+}
+
+.logo__item {
+  display: table;
+  height: 30px;
+}
+.logo__item a {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*---------------------
+  End Logo
+-----------------------*/
